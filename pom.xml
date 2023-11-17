@@ -24,6 +24,21 @@
   		<scope>provided</scope>
   	</dependency>
   </dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://65.1.107.2:8081/repository/war-web-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://65.1.107.2:8081/repository/war-web-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <build>
     <plugins>
       <plugin>
